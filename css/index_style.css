@@ -1,0 +1,26 @@
+body {
+    background-color: #1d8e94;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    /* color: #000;
+    line-height: 1.42857143;
+    margin: 0;
+    padding: 0; */
+}
+.mcontainer{
+
+    height: auto 100% ;
+    width: 95%;
+    background-color: white;
+
+    /* overflow: auto; */
+}
+.main_card {
+    background-color: #03c0ca; 
+    padding-bottom: 30px; 
+    padding-top: 30px;
+}
+.sub_card {
+    background-color: #00757b;  
+    color: white;
+}

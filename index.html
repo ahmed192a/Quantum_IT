@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/index_style.css">
+    <script src="js/bootstrap.js"></script>
+</head>
+
+<body>
+    <!-- Set Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="navbar-nav mr-auto">
+                    <a class="navbar-brand" href="#">
+                        <img src="imgs/settings.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                    </a>
+                    <a class="navbar-brand" href="#">
+                        <img src="imgs/message.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                    </a>
+                    <a class="navbar-brand" href="#">
+                        <img src="imgs/bell.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                    </a>
+                    <a class="navbar-brand" href="#">
+                        <img src="imgs/user.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                    </a>
+                </div>
+                <div class="navbar-nav my-2 my-lg-0">
+                    <a class="navbar-brand align-self-right" href="#">
+                        <img src="imgs/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                    </a>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Set Content -->
+    <div class="mcontainer">
+        <!-- Create Tile on the Right side of the page -->
+        <!-- Add margin on the top and bottom of the tile -->
+        <div class="container">
+            <div class="row">
+                <!-- Align h1 to right with margin top -->
+                <div class="col-md-12">
+                    <!-- Add margin top 10px  to h3 -->
+                    <h3 class="text-right" style="margin-top: 20px;">بيانات الطفل احمد محمد احمد</h3>
+                </div>
+            </div>
+        </div>
+        <!-- Container with Gray background -->
+        <div style="background-color: #f5f5f5; margin-right: 0px; margin-left: auto; margin-bottom:80px;">
+            <div class="row" style="padding-right: 150px; ">
+                <!-- Align h1 to right with margin top -->
+                <div class="col-md-12">
+                    <!-- Add margin top 10px  to h3 -->
+                    <h4 class="text-right" style="margin-top: 20px; margin-bottom: 20px;">عمل تقييم جديد</h4>
+                </div>
+            </div>
+        </div>
+        <!-- Add 80px height seperator -->
+        <!-- <div class="container" style="height: 80px;"></div> -->
+
+
+        <!-- Create Centered list of 3 button cards  -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- hide the lines of the ul -->
+                    <ul class="list-group  list-group-flush">
+                        <li class="list-group-item">
+                            <!-- create button and check if pressed to make two buttons appear and disappear -->
+                            <button class="btn  btn-lg btn-block main_card" type="button" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                منهج هيلب المرحله العمرية من 1 الي 6 سنوات
+                            </button>
+
+                            <div class="collapse" id="collapseExample" style="margin-top: 10px;">
+
+                                <!-- list of two buttons -->
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        <a href="./evaluation.html" class="btn btn-lg btn-block sub_card"> هيلب 1-3</a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="./evaluation.html" class="btn btn-lg btn-block sub_card"> هيلب 3-6</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+
+                        </li>
+                        <li class="list-group-item">
+                            <!-- create button and check if pressed to make two buttons appear and disappear -->
+                            <button class="btn  btn-lg btn-block main_card" type="button" data-toggle="collapse"
+                                data-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">
+                                منهج هيلب المرحله العمرية من 1 الي 6 سنوات
+                            </button>
+
+                            <div class="collapse" id="collapseExample1" style="margin-top: 10px;">
+                                <!-- list of two buttons -->
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        <a href="./evaluation.html" class="btn btn-lg btn-block sub_card"> هيلب 1-3</a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="./evaluation.html" class="btn btn-lg btn-block sub_card"> هيلب 3-6</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <!-- create button and check if pressed to make two buttons appear and disappear -->
+                            <button class="btn  btn-lg btn-block main_card" type="button" data-toggle="collapse"
+                                data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">
+                                منهج هيلب المرحله العمرية من 1 الي 6 سنوات
+                            </button>
+
+                            <div class="collapse" id="collapseExample2" style="margin-top: 10px;">
+
+                                <!-- list of two buttons -->
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        <a href="./evaluation.html" class="btn btn-lg btn-block sub_card"> هيلب 1-3</a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="./evaluation.html" class="btn btn-lg btn-block sub_card"> هيلب 3-6</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <!-- create button and check if pressed to make two buttons appear and disappear -->
+                            <button class="btn  btn-lg btn-block main_card" type="button" data-toggle="collapse"
+                                data-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3">
+                                منهج هيلب المرحله العمرية من 1 الي 6 سنوات
+                            </button>
+
+                            <div class="collapse" id="collapseExample3" style="margin-top: 10px;">
+
+                                <!-- list of two buttons -->
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        <a href="./evaluation.html" class="btn btn-lg btn-block sub_card"> هيلب 1-3</a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="./evaluation.html" class="btn btn-lg btn-block sub_card"> هيلب 3-6</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

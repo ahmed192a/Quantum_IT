@@ -1,0 +1,555 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Evaluation</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.js"></script>
+    <link rel="stylesheet" href="css/index_style.css">
+</head>
+
+<body>
+    <!-- Set Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="navbar-nav mr-auto">
+                    <a class="navbar-brand" href="#">
+                        <img src="imgs/settings.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                    </a>
+                    <a class="navbar-brand" href="#">
+                        <img src="imgs/message.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                    </a>
+                    <a class="navbar-brand" href="#">
+                        <img src="imgs/bell.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                    </a>
+                    <a class="navbar-brand" href="#">
+                        <img src="imgs/user.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                    </a>
+                </div>
+                <div class="navbar-nav my-2 my-lg-0">
+                    <a class="navbar-brand align-self-right" href="#">
+                        <img src="imgs/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                    </a>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Set Body -->
+    <div class="mcontainer">
+        <div class="container">
+            <div class="row" style="height: 80px;">
+                <div class="col-md-2" style="margin:auto;">
+                    <button class="btn btn-md btn-block" style="background-color: #03c0ca; color:white;">
+                        بدأ محادثه جديده
+                    </button>
+                </div>
+                <!-- Align h1 to right with margin top -->
+                <div class="col-md-10" style="margin:auto;">
+                    <!-- Add margin top 10px  to h3 -->
+                    <h3 class="text-right">بيانات الطفل احمد محمد احمد</h3>
+                </div>
+
+            </div>
+        </div>
+        <!-- Container with Gray background -->
+        <div style="background-color: #f5f5f5; margin-right: 0px; margin-left: auto;">
+            <div class="row" style="padding-right: 150px; ">
+                <!-- Align h1 to right with margin top -->
+                <div class="col-md-12">
+                    <!-- Add margin top 10px  to h3 -->
+                    <h4 class="text-right" style="margin-top: 20px; margin-bottom: 20px;">عمل تقييم جديد</h4>
+                </div>
+            </div>
+        </div>
+        <div class="container" style="padding-top: 80px;">
+            <div class="row">
+                <!-- Create four columns -->
+                <div class="col">
+                    <p class="text-right">عمر التقييم: 0 - 73</p>
+                    <p class="text-right">الفجوة العمرية : 5 شهور</p>
+                </div>
+                <div class="col">
+                    <p class="text-right"> عمر الطفل : 10</p>
+                    <p class="text-right">أخرى: 0</p>
+                </div>
+                <div class="col">
+                    <p class="text-right">Help 1 - 6 : التقييم</p>
+                    <p class="text-right">نقاط الضعف : 0</p>
+                </div>
+                <div class="col">
+                    <p class="text-right">الطفل: احمد محمد احمد</p>
+                    <p class="text-right">نقاط القوة : 0</p>
+                </div>
+            </div>
+            <div class="container" style="padding-top: 20px;">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <!--  -->
+                        <button class="btn  btn-lg btn-block" type="button" data-toggle="collapse"
+                            data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"
+                            style="background-color: #1d8e94; color: white; ">
+                            <div class="table-responsive text-nowrap ">
+                                <!--Table-->
+                                <table class="table table-striped table-borderless" style="margin: 0px;">
+                                    <thead>
+                                        <tr class="text-right" style="color: white; font-size: 15px;">
+                                            <th scope="col">
+                                                <p class="text-right">اخري:0</p>
+                                            </th>
+                                            <th scope="col">
+                                                <p class="text-right">نقاط ضعف:0</p>
+                                            </th>
+                                            <th scope="col">
+                                                <p class="text-right">نقاط قوة:0</p>
+                                            </th>
+                                            <th scope="col">
+                                                <p class="text-right">متبقي:10</p>
+                                            </th>
+                                            <th scope="col">
+                                                <p class="text-right">مهارات متاحة:10</p>
+                                            </th>
+                                            <th scope="col">
+                                                <p class="text-right">عدد المجالات الفرعيه:13</p>
+                                            </th>
+                                            <th scope="col">
+                                                <p class="text-right">المجال : التنظيم الحسبي</p>
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                </table>
+                            </div>
+                        </button>
+                        <!--  -->
+                        <div class="collapse" id="collapseExample">
+                            <div class="card card-body">
+                                <div class="col">
+                                    <!-- list of two buttons -->
+                                    <ul class="list-group list-group-flush">
+                                        <!-- First skill -->
+                                        <li class="list-group-item">
+                                            <button class="btn  btn-lg btn-block" type="button" data-toggle="collapse"
+                                                data-target="#collapseExample1" aria-expanded="false"
+                                                aria-controls="collapseExample1"
+                                                style="background-color: #03c0ca; color: white; ">
+                                                <div class="table-responsive text-nowrap ">
+                                                    <!--Table-->
+                                                    <table class="table table-striped table-borderless"
+                                                        style="margin: 0px;">
+                                                        <thead>
+                                                            <tr class="text-right"
+                                                                style="color: white; font-size: 15px;">
+                                                                <th scope="col">
+                                                                    <p class="text-right">اخري:0</p>
+                                                                </th>
+                                                                <th scope="col">
+                                                                    <p class="text-right">نقاط ضعف:0</p>
+                                                                </th>
+                                                                <th scope="col">
+                                                                    <p class="text-right">نقاط قوة:0</p>
+                                                                </th>
+                                                                <th scope="col">
+                                                                    <p class="text-right">متبقي:10</p>
+                                                                </th>
+                                                                <th scope="col">
+                                                                    <p class="text-right">الفجوة العمرية : 5 شهور</p>
+                                                                </th>
+                                                                <th scope="col">
+                                                                    <p class="text-right">مهارات متاحة:10</p>
+                                                                </th>
+                                                                <th scope="col">
+                                                                    <p class="text-right">المجال : التنظيم الحسبي</p>
+                                                                </th>
+                                                            </tr>
+                                                        </thead>
+                                                    </table>
+                                                </div>
+                                            </button>
+                                            <div class="collapse" id="collapseExample1">
+                                                <div class="table-responsive text-nowrap ">
+                                                    <!--Table-->
+                                                    <table class="table table-striped">
+                                                        <thead>
+                                                            <tr class="text-right">
+                                                                <th scope="col">غير واضح</th>
+                                                                <th scope="col">غير قابل للظهور</th>
+                                                                <th scope="col">لا</th>
+                                                                <th scope="col">نعم</th>
+                                                                <th scope="col">المهارة</th>
+                                                                <th scope="col">العمر</th>
+                                                                <th scope="col">مسلسل</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr class="text-right" style="background-color: white;">
+                                                                <td>
+                                                                    <input class="form-check-input" type="radio"
+                                                                        name="flexRadioDefault" id="flexRadioDefault1">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-check-input" type="radio"
+                                                                        name="flexRadioDefault" id="flexRadioDefault2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-check-input" type="radio"
+                                                                        name="flexRadioDefault" id="flexRadioDefault3">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-check-input" type="radio"
+                                                                        name="flexRadioDefault" id="flexRadioDefault4">
+                                                                </td>
+                                                                <td> يستمتع بالاستماع للقصص و يحب مشاهدتها باستقلاليه
+                                                                </td>
+                                                                <td> 60 - 70 </td>
+                                                                <td> 28 </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <!-- Second skill -->
+                                        <li class="list-group-item">
+                                            <button class="btn  btn-lg btn-block" type="button" data-toggle="collapse"
+                                                data-target="#collapseExample2" aria-expanded="false"
+                                                aria-controls="collapseExample2"
+                                                style="background-color: #03c0ca; color: white; ">
+                                                <div class="table-responsive text-nowrap ">
+                                                    <!--Table-->
+                                                    <table class="table table-striped table-borderless"
+                                                        style="margin: 0px;">
+                                                        <thead>
+                                                            <tr class="text-right"
+                                                                style="color: white; font-size: 15px;">
+                                                                <th scope="col">
+                                                                    <p class="text-right">اخري:0</p>
+                                                                </th>
+                                                                <th scope="col">
+                                                                    <p class="text-right">نقاط ضعف:0</p>
+                                                                </th>
+                                                                <th scope="col">
+                                                                    <p class="text-right">نقاط قوة:0</p>
+                                                                </th>
+                                                                <th scope="col">
+                                                                    <p class="text-right">متبقي:10</p>
+                                                                </th>
+                                                                <th scope="col">
+                                                                    <p class="text-right">الفجوة العمرية : 5 شهور</p>
+                                                                </th>
+                                                                <th scope="col">
+                                                                    <p class="text-right">مهارات متاحة:10</p>
+                                                                </th>
+                                                                <th scope="col">
+                                                                    <p class="text-right">المجال : التنظيم الحسبي</p>
+                                                                </th>
+                                                            </tr>
+                                                        </thead>
+                                                    </table>
+                                                </div>
+                                            </button>
+
+                                            <div class="collapse" id="collapseExample2">
+                                                <div class="table-responsive text-nowrap ">
+                                                    <!--Table-->
+                                                    <table class="table table-striped">
+                                                        <thead>
+                                                            <tr class="text-right">
+                                                                <th scope="col">غير واضح</th>
+                                                                <th scope="col">غير قابل للظهور</th>
+                                                                <th scope="col">لا</th>
+                                                                <th scope="col">نعم</th>
+                                                                <th scope="col">المهارة</th>
+                                                                <th scope="col">العمر</th>
+                                                                <th scope="col">مسلسل</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr class="text-right" style="background-color: white;">
+                                                                <td> <input class="form-check-input" type="radio"
+                                                                        name="flexRadioDefault1" id="flexRadioDefault1">
+                                                                </td>
+                                                                <td> <input class="form-check-input" type="radio"
+                                                                        name="flexRadioDefault1" id="flexRadioDefault2">
+                                                                </td>
+                                                                <td> <input class="form-check-input" type="radio"
+                                                                        name="flexRadioDefault1" id="flexRadioDefault3">
+                                                                </td>
+                                                                <td> <input class="form-check-input" type="radio"
+                                                                        name="flexRadioDefault1" id="flexRadioDefault4">
+                                                                </td>
+                                                                <td>يستمتع بالاستماع للقصص و يحب مشاهدتها باستقلاليه
+                                                                </td>
+                                                                <td>60-70</td>
+                                                                <td>28</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+
+
+
+                                            </div>
+                                        </li>
+
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </li>
+
+                    <!-- ---------------------- -->
+                    <li class="list-group-item">
+                        <!--  -->
+                        <button class="btn  btn-lg btn-block" type="button" data-toggle="collapse"
+                            data-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3"
+                            style="background-color: #1d8e94; color: white; ">
+                            <div class="table-responsive text-nowrap ">
+                                <!--Table-->
+                                <table class="table table-striped table-borderless" style="margin: 0px;">
+                                    <thead>
+                                        <tr class="text-right" style="color: white; font-size: 15px;">
+                                            <th scope="col">
+                                                <p class="text-right">اخري:0</p>
+                                            </th>
+                                            <th scope="col">
+                                                <p class="text-right">نقاط ضعف:0</p>
+                                            </th>
+                                            <th scope="col">
+                                                <p class="text-right">نقاط قوة:0</p>
+                                            </th>
+                                            <th scope="col">
+                                                <p class="text-right">متبقي:10</p>
+                                            </th>
+                                            <th scope="col">
+                                                <p class="text-right">مهارات متاحة:10</p>
+                                            </th>
+                                            <th scope="col">
+                                                <p class="text-right">عدد المجالات الفرعيه:13</p>
+                                            </th>
+                                            <th scope="col">
+                                                <p class="text-right">المجال : التنظيم الحسبي</p>
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                </table>
+                            </div>
+                        </button>
+                        <!--  -->
+                        <div class="collapse" id="collapseExample3">
+                            <div class="card card-body">
+                                <div class="col">
+                                    <!-- list of two buttons -->
+                                    <ul class="list-group list-group-flush">
+                                        <!-- First skill -->
+                                        <li class="list-group-item">
+                                            <button class="btn  btn-lg btn-block" type="button" data-toggle="collapse"
+                                                data-target="#collapseExample4" aria-expanded="false"
+                                                aria-controls="collapseExample4"
+                                                style="background-color: #03c0ca; color: white; ">
+                                                <div class="table-responsive text-nowrap ">
+                                                    <!--Table-->
+                                                    <table class="table table-striped table-borderless"
+                                                        style="margin: 0px;">
+                                                        <thead>
+                                                            <tr class="text-right"
+                                                                style="color: white; font-size: 15px;">
+                                                                <th scope="col">
+                                                                    <p class="text-right">اخري:0</p>
+                                                                </th>
+                                                                <th scope="col">
+                                                                    <p class="text-right">نقاط ضعف:0</p>
+                                                                </th>
+                                                                <th scope="col">
+                                                                    <p class="text-right">نقاط قوة:0</p>
+                                                                </th>
+                                                                <th scope="col">
+                                                                    <p class="text-right">متبقي:10</p>
+                                                                </th>
+                                                                <th scope="col">
+                                                                    <p class="text-right">الفجوة العمرية : 5 شهور</p>
+                                                                </th>
+                                                                <th scope="col">
+                                                                    <p class="text-right">مهارات متاحة:10</p>
+                                                                </th>
+                                                                <th scope="col">
+                                                                    <p class="text-right">المجال : التنظيم الحسبي</p>
+                                                                </th>
+                                                            </tr>
+                                                        </thead>
+                                                    </table>
+                                                </div>
+                                            </button>
+                                            <div class="collapse" id="collapseExample4">
+                                                <div class="table-responsive text-nowrap ">
+                                                    <!--Table-->
+                                                    <table class="table table-striped">
+                                                        <thead>
+                                                            <tr class="text-right">
+                                                                <th scope="col">غير واضح</th>
+                                                                <th scope="col">غير قابل للظهور</th>
+                                                                <th scope="col">لا</th>
+                                                                <th scope="col">نعم</th>
+                                                                <th scope="col">المهارة</th>
+                                                                <th scope="col">العمر</th>
+                                                                <th scope="col">مسلسل</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr class="text-right" style="background-color: white;">
+                                                                <td>
+                                                                    <input class="form-check-input" type="radio"
+                                                                        name="flexRadioDefault2" id="flexRadioDefault1">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-check-input" type="radio"
+                                                                        name="flexRadioDefault2" id="flexRadioDefault2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-check-input" type="radio"
+                                                                        name="flexRadioDefault2" id="flexRadioDefault3">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-check-input" type="radio"
+                                                                        name="flexRadioDefault2" id="flexRadioDefault4">
+                                                                </td>
+                                                                <td> يستمتع بالاستماع للقصص و يحب مشاهدتها باستقلاليه
+                                                                </td>
+                                                                <td> 60 - 70 </td>
+                                                                <td> 28 </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <!-- Second skill -->
+                                        <li class="list-group-item">
+                                            <button class="btn  btn-lg btn-block" type="button" data-toggle="collapse"
+                                                data-target="#collapseExample5" aria-expanded="false"
+                                                aria-controls="collapseExample5"
+                                                style="background-color: #03c0ca; color: white; ">
+                                                <div class="table-responsive text-nowrap ">
+                                                    <!--Table-->
+                                                    <table class="table table-striped table-borderless"
+                                                        style="margin: 0px;">
+                                                        <thead>
+                                                            <tr class="text-right"
+                                                                style="color: white; font-size: 15px;">
+                                                                <th scope="col">
+                                                                    <p class="text-right">اخري:0</p>
+                                                                </th>
+                                                                <th scope="col">
+                                                                    <p class="text-right">نقاط ضعف:0</p>
+                                                                </th>
+                                                                <th scope="col">
+                                                                    <p class="text-right">نقاط قوة:0</p>
+                                                                </th>
+                                                                <th scope="col">
+                                                                    <p class="text-right">متبقي:10</p>
+                                                                </th>
+                                                                <th scope="col">
+                                                                    <p class="text-right">الفجوة العمرية : 5 شهور</p>
+                                                                </th>
+                                                                <th scope="col">
+                                                                    <p class="text-right">مهارات متاحة:10</p>
+                                                                </th>
+                                                                <th scope="col">
+                                                                    <p class="text-right">المجال : التنظيم الحسبي</p>
+                                                                </th>
+                                                            </tr>
+                                                        </thead>
+                                                    </table>
+                                                </div>
+                                            </button>
+
+                                            <div class="collapse" id="collapseExample5">
+                                                <div class="table-responsive text-nowrap ">
+                                                    <!--Table-->
+                                                    <table class="table table-striped">
+                                                        <thead>
+                                                            <tr class="text-right">
+                                                                <th scope="col">غير واضح</th>
+                                                                <th scope="col">غير قابل للظهور</th>
+                                                                <th scope="col">لا</th>
+                                                                <th scope="col">نعم</th>
+                                                                <th scope="col">المهارة</th>
+                                                                <th scope="col">العمر</th>
+                                                                <th scope="col">مسلسل</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr class="text-right" style="background-color: white;">
+                                                                <td> <input class="form-check-input" type="radio"
+                                                                        name="flexRadioDefault3" id="flexRadioDefault1">
+                                                                </td>
+                                                                <td> <input class="form-check-input" type="radio"
+                                                                        name="flexRadioDefault3" id="flexRadioDefault2">
+                                                                </td>
+                                                                <td> <input class="form-check-input" type="radio"
+                                                                        name="flexRadioDefault3" id="flexRadioDefault3">
+                                                                </td>
+                                                                <td> <input class="form-check-input" type="radio"
+                                                                        name="flexRadioDefault3" id="flexRadioDefault4">
+                                                                </td>
+                                                                <td>يستمتع بالاستماع للقصص و يحب مشاهدتها باستقلاليه
+                                                                </td>
+                                                                <td>60-70</td>
+                                                                <td>28</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+
+
+
+                                            </div>
+                                        </li>
+
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </li>
+
+
+                </ul>
+
+
+                <div class="container bg-light" style="padding: 20px;">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <button type="button" class="btn btn-lg"
+                                style="background-color: #03c0ca; color:white; width:20%; margin:2.5%;">اعتماد</button>
+                            <button type="button" class="btn btn-lg"
+                                style="background-color: #03c0ca; color:white; width:20%;">حفظ</button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
