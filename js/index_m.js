@@ -120,7 +120,9 @@ function set_evaluation(from, to) {
     http.onreadystatechange =  function() {
         if(http.readyState == 4 && http.status == 200) {
             var response = http.responseText;
-            console.log(response);
+            // var result = JSON.parse(response);
+            // console.log(result);
+
             window.location.href = "./pages/evaluation.html";
         }
     }

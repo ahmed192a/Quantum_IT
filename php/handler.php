@@ -1,12 +1,11 @@
 <?php
 switch ($_SERVER["REQUEST_METHOD"]) {
     case "POST":
-        
-
+    
         switch ($_POST['op']) {
             case "child_info":
                 // get data from child.json
-                $child_info = json_encode(json_decode(file_get_contents("child.json"), true));
+                $child_info = json_encode(json_decode(file_get_contents('child.json'), true));
                                
                 // send data to client
                 echo $child_info;
@@ -30,11 +29,28 @@ switch ($_SERVER["REQUEST_METHOD"]) {
                 break;
             case "update_child_info":
                 // get data from client
-                $child_info = json_decode($_POST['child_info'], true);
-                // save new data to child.json
-                file_put_contents("child.json", json_encode($child_info));
-                // send data to client
-                echo json_encode($child_info);
+                $new_child_info = json_encode(json_decode($_POST['child_info'], true));
+
+                file_put_contents("child.json", $new_child_info);
+                // // read new data from child.json
+                $check_child_info = json_encode(json_decode(file_get_contents('child.json'), true));
+                // // send data to client
+                echo $check_child_info;
+                break;
+            case "save_data":
+                // get data from client
+                $child_info_n = json_encode(json_decode($_POST['child_info'], true));
+                $subjects_n = json_encode(json_decode($_POST['subjects'], true));
+                //save data to child.json
+                if (file_put_contents("child.json", $child_info_n)) {
+                    //save data to subjects.json
+                    if (file_put_contents("subjects.json", $subjects_n)) {
+                       echo "success";
+                       break;
+                    }
+                }
+                
+                echo "fail";
                 break;
             default:
                 echo "Error";
